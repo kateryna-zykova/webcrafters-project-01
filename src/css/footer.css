@@ -1,5 +1,5 @@
 .footer {
-    background: #75d281;
+    background: var(--color-emerald-light);
 }
 .footer .container {
     padding: 48px 20px;
@@ -31,7 +31,7 @@
     text-align: center;
 }
 .footer-nav-link {
-    color: #030a06;
+    color: var(--color-neutral-darkest);
 }
 .footer-social-list {
     display: flex;
@@ -66,11 +66,10 @@
     gap: 16px;
 }
 .footer-contacts-link {
-    color: #030a06;
+    color: var(--color-neutral-darkest);
 }
 .footer-copyrights {
     font-size: 14px;
-    color: #030a06;
     padding-bottom: 16px;
 }
 
@@ -103,7 +102,6 @@
     }
     .footer-copyrights {
         font-size: 14px;
-        color: #030a06;
         white-space: nowrap;
         padding-bottom: 0;
     }
@@ -126,9 +124,9 @@
         text-underline-offset: 8px;
     }
     .footer-nav-link:active {
-        text-decoration: underline 2px #3ac04c;
+        text-decoration: underline 2px var(--color-emerald);
         text-underline-offset: 8px;
-        color: #3ac04c;
+        color: var(--color-emerald);
     }
     .footer-social-item {
         width: 24px;
@@ -138,11 +136,11 @@
     }
     .footer-social-item:hover, 
     .footer-social-item:hover {
-        border-color: #030a06;
+        border-color: var(--color-neutral-darkest);
     }
     .footer-social-item:active {
-        border-color: #3ac04c;
-        fill: #3ac04c;
+        border-color: var(--color-emerald);
+        fill: var(--color-emerald);
     }
     .footer-contacts-link:hover, 
     .footer-contacts-link:focus {
@@ -150,8 +148,8 @@
         text-underline-offset: 8px;
     }
     .footer-contacts-link:active {
-        text-decoration: underline 2px #3ac04c;
+        text-decoration: underline 2px var(--color-emerald);
         text-underline-offset: 8px;
-        color: #3ac04c;
+        color: var(--color-emerald);
     }
 }
