@@ -63,6 +63,7 @@
         line-height: 1.6;
         color: var(--color-neutral-darkest);
         text-align: left;
+        margin-top: auto;
 }
 
 @media screen and (min-width:768px) {
@@ -75,8 +76,7 @@
  }
 .review-item {
         width: calc((100% - 24px) / 2);
-        /* min-width: 340px; */
-        /* 2 колонки */
+        
         min-height: 190px;
     }
 
@@ -91,26 +91,21 @@
 }
 
 @media screen and (min-width:1440px) {
-/* .reviews-container {
-width: 24px;
-
-} */
 
 .reviews-list {
 align-items: flex-start;
     justify-content: flex-start;
         max-width: 1440px;
         margin: 0 auto;
-        gap: 24px
+        gap: 24px;
+        
     }
 
     .review-item {
         width: calc((100% - 3 * 24px) / 4);
         min-width: 310px;
-       
-        /* min-height: 310px; */
-        /* padding: 28px; */
-                /* min-height: 220px; */
+        
+                
     }
 
 }
