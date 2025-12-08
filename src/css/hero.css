@@ -105,6 +105,16 @@
   margin-bottom: 24px;
 }
 
+.hero-link:hover,
+.hero-link:focus {
+  opacity: 0.5;
+}
+
+.hero-link:active {
+  background: var(--color-emerald-darkest);
+  opacity: 0.6;
+}
+
 @media screen and (min-width: 768px) {
   .hero-link {
     max-width: 148px;
